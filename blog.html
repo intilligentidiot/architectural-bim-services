@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Insights & News | Architectural BIM Services</title>
+    <meta name="description"
+        content="Stay updated with the latest trends in Building Information Modeling, Digital Twins, and Architectural Technology.">
+    <link rel="canonical" href="https://www.bimservicesindia.com/architectural-bim-services/blog.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="BIM Insights & Industry News">
+    <meta property="og:description" content="Expert analysis on the future of construction technology.">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- RemixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">BIM Arch</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">Philosophy</a></li>
+                <li><a href="index.html#services">Expertise</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html#contact" class="cta-button">Request Proposal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section blog-listing">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">Industry Insights</h1>
+                <p class="section-subtitle">Curated thinking on architecture, technology, and design.</p>
+            </div>
+
+            <div class="blog-grid" id="blog-grid">
+                <!-- Article 1 -->
+                <article class="blog-card">
+                    <div class="blog-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="BIM Architecture" class="blog-image">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta-row">
+                            <span class="blog-category">BIM Technology</span>
+                            <span class="blog-date">Feb 12, 2026</span>
+                        </div>
+                        <h3 class="blog-title"><a href="posts/intro-to-bim.html">The Digital Twin Revolution in Modern
+                                Architecture</a></h3>
+                        <p class="blog-excerpt">Exploring how Building Information Modeling (BIM) is shifting from a
+                            tool to a necessity for global architectural firms.</p>
+                        <a href="posts/intro-to-bim.html" class="read-more-link">Read Journal</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; BIM Architectural Services. Shaping the Future of Construction.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple entry animation for blog cards
+        document.addEventListener('DOMContentLoaded', () => {
+            anime({
+                targets: '.blog-card',
+                translateY: [20, 0],
+                opacity: [0, 1],
+                delay: anime.stagger(150),
+                easing: 'easeOutQuad',
+                duration: 800
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - Architectural BIM Services Blog</title>
+    <meta name="description" content="{{description}}">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- RemixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">BIM Arch</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">Philosophy</a></li>
+                <li><a href="../index.html#services">Expertise</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../index.html#contact" class="cta-button">Request Proposal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <!-- Article Header -->
+        <section class="article-header">
+            <div class="container">
+                <div class="article-meta">
+                    <span>{{category}}</span> &bull; <span>{{date}}</span>
+                </div>
+                <h1 class="article-title">{{title}}</h1>
+            </div>
+        </section>
+
+        <!-- Hero Image -->
+        <div class="article-hero-image-wrapper">
+            <img src="{{image_url}}" alt="{{title}}" class="article-hero-image">
+        </div>
+
+        <!-- Content & Sidebar Wrapper -->
+        <div class="article-layout">
+            <!-- Main Content -->
+            <div class="article-content-wrapper">
+                <div class="article-body">
+                    {{content}}
+                </div>
+
+                <!-- Back Link -->
+                <div style="margin-top: 60px; padding-top: 40px; border-top: 1px solid #eee;">
+                    <a href="../blog.html" class="read-more-link"
+                        style="transform: rotate(180deg); display: inline-block;">Back to Insights</a>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-title">About BIM Arch</h3>
+                    <p class="author-bio">We are a premier architectural BIM consultancy specializing in high-LOD
+                        digital twins and complex geometry rationalization.</p>
+                    <a href="../index.html#about" class="read-more-link" style="font-size: 0.9rem;">Our Philosophy</a>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-title">Our Expertise</h3>
+                    <a href="../index.html#services" class="widget-link">Architectural 3D Modeling</a>
+                    <a href="../index.html#services" class="widget-link">Façade Engineering</a>
+                    <a href="../index.html#services" class="widget-link">Construction Documentation</a>
+                    <a href="../index.html#services" class="widget-link">Scan to BIM</a>
+                </div>
+            </aside>
+        </div>
+    </article>
+
+    <footer>
+        <div class="container">
+            <p>&copy; BIM Architectural Services. Shaping the Future of Construction.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Architectural BIM",
+        "slug": "intro-to-bim",
+        "date": "2026-02-12",
+        "author": "BIM Expert",
+        "description": "Discover how Building Information Modeling (BIM) is revolutionizing the architectural industry.",
+        "image": "../images/blog1.jpg"
+    }
+]
