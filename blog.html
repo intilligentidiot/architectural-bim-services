@@ -20,9 +20,17 @@
     <meta property="og:description" content="Expert analysis on the future of construction technology.">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- RemixIcon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <!-- Defer Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -74,19 +82,10 @@
             <p>&copy; BIM Architectural Services. Shaping the Future of Construction.</p>
         </div>
     </footer>
-
-    <script>
-        // Simple entry animation for blog cards
-        document.addEventListener('DOMContentLoaded', () => {
-            anime({
-                targets: '.blog-card',
-                translateY: [20, 0],
-                opacity: [0, 1],
-                delay: anime.stagger(150),
-                easing: 'easeOutQuad',
-                duration: 800
-            });
-        });
+    easing: 'easeOutQuad',
+    duration: 800
+    });
+    });
     </script>
 </body>
 
