@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.bimservicesindia.com/architectural-bim-services/sitemap.xml
+Sitemap: https://intilligentidiot.github.io/architectural-bim-services/sitemap.xml
